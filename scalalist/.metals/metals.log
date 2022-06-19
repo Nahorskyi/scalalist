@@ -1,0 +1,86 @@
+2022.06.19 16:29:48 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/max/scalalab1list/scalalist/.metals/lsp.trace.json or /home/max/.cache/metals/lsp.trace.json[0m
+2022.06.19 16:29:51 INFO  logging to file /home/max/scalalab1list/scalalist/.metals/metals.log[0m
+2022.06.19 16:29:51 INFO  Started: Metals version 0.11.6+103-1d8f5fdf-SNAPSHOT in workspace '/home/max/scalalab1list/scalalist' for client Visual Studio Code 1.68.1.[0m
+2022.06.19 16:29:56 INFO  time: initialize in 5.06s[0m
+2022.06.19 16:29:59 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.19 16:30:00 WARN  Build server is not auto-connectable.[0m
+2022.06.19 16:30:04 WARN  no build target for: /home/max/scalalab1list/scalalist/src/main/scala/Main.scala[0m
+2022.06.19 16:30:04 WARN  no build target for: /home/max/scalalab1list/scalalist/src/test/scala/MySuite.scala[0m
+2022.06.19 16:30:15 INFO  running '/home/max/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals254541777246330759/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.19 16:30:15 WARN  no build target for: /home/max/scalalab1list/scalalist/project/metals.sbt[0m
+2022.06.19 16:30:15 WARN  no build target for: /home/max/scalalab1list/scalalist/project/project/metals.sbt[0m
+2022.06.19 16:30:15 INFO  skipping build import with status 'Started'[0m
+2022.06.19 16:30:31 INFO  no build target found for /home/max/scalalab1list/scalalist/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.06.19 16:30:36 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 1.8.0_292)[0m
+2022.06.19 16:30:54 INFO  time: code lens generation in 42s[0m
+2022.06.19 16:30:54 INFO  time: code lens generation in 42s[0m
+2022.06.19 16:31:00 INFO  [info] loading settings for project scalalist-build-build from metals.sbt ...[0m
+2022.06.19 16:31:03 INFO  [info] loading project definition from /home/max/scalalab1list/scalalist/project/project[0m
+2022.06.19 16:31:15 INFO  [info] loading settings for project scalalist-build from metals.sbt ...[0m
+2022.06.19 16:31:16 INFO  [info] loading project definition from /home/max/scalalab1list/scalalist/project[0m
+2022.06.19 16:31:29 INFO  [success] Generated .bloop/scalalist-build.json[0m
+2022.06.19 16:31:29 INFO  [success] Total time: 13 s, completed Jun 19, 2022 4:31:29 PM[0m
+2022.06.19 16:31:37 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.06.19 16:31:37 INFO  [info] set current project to scalalist (in build file:/home/max/scalalab1list/scalalist/)[0m
+2022.06.19 16:31:42 INFO  [success] Generated .bloop/root.json[0m
+2022.06.19 16:31:42 INFO  [success] Generated .bloop/root-test.json[0m
+2022.06.19 16:31:42 INFO  [success] Total time: 3 s, completed Jun 19, 2022 4:31:42 PM[0m
+2022.06.19 16:31:42 INFO  time: ran 'sbt bloopInstall' in 1m27s[0m
+2022.06.19 16:31:42 INFO  Attempting to connect to the build server...[0m
+2022.06.19 16:31:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/max/scalalab1list/scalalist/.metals/bsp.trace.json or /home/max/.cache/metals/bsp.trace.json[0m
+2022.06.19 16:31:55 INFO  Attempting to connect to the build server...[0m
+2022.06.19 16:31:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/max/scalalab1list/scalalist/project/.metals/bsp.trace.json or /home/max/.cache/metals/bsp.trace.json[0m
+2022.06.19 16:31:55 INFO  time: Connected to build server in 12s[0m
+2022.06.19 16:31:55 INFO  Connected to Build server: Bloop v1.5.0-22-91111c15[0m
+2022.06.19 16:31:56 INFO  time: Imported build in 0.66s[0m
+2022.06.19 16:32:08 INFO  time: indexed workspace in 12s[0m
+2022.06.19 16:32:12 INFO  compiling root (1 scala source)[0m
+2022.06.19 16:32:36 INFO  compiling root-test (1 scala source)[0m
+2022.06.19 16:32:38 INFO  time: compiled root in 26s[0m
+2022.06.19 16:32:44 INFO  time: compiled root-test in 8.31s[0m
+2022.06.19 16:32:56 INFO  running '/home/max/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals9062538467916708576/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.19 16:33:08 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 1.8.0_292)[0m
+2022.06.19 16:33:17 INFO  [info] loading settings for project scalalist-build-build from metals.sbt ...[0m
+2022.06.19 16:33:26 INFO  [info] loading project definition from /home/max/scalalab1list/scalalist/project/project[0m
+2022.06.19 16:33:37 INFO  [info] loading settings for project scalalist-build from metals.sbt ...[0m
+2022.06.19 16:33:38 INFO  [info] loading project definition from /home/max/scalalab1list/scalalist/project[0m
+Jun 19, 2022 4:33:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51
+2022.06.19 16:33:46 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6+103-1d8f5fdf-SNAPSHOT' (since 1m 51.096s)[0m
+2022.06.19 16:33:46 INFO  compiling root (1 scala source)[0m
+2022.06.19 16:33:46 INFO  compiling root (1 scala source)[0m
+2022.06.19 16:34:11 INFO  [success] Generated .bloop/scalalist-build.json[0m
+2022.06.19 16:34:13 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6+103-1d8f5fdf-SNAPSHOT' (since 2m 18.437s)[0m
+2022.06.19 16:34:13 INFO  [success] Total time: 35 s, completed Jun 19, 2022 4:34:13 PM[0m
+2022.06.19 16:34:13 INFO  compiling root-test (1 scala source)[0m
+2022.06.19 16:34:13 INFO  compiling root-test (1 scala source)[0m
+2022.06.19 16:34:13 INFO  time: compiled root in 27s[0m
+2022.06.19 16:34:16 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.06.19 16:34:18 INFO  [info] set current project to scalalist (in build file:/home/max/scalalab1list/scalalist/)[0m
+2022.06.19 16:34:22 INFO  [success] Generated .bloop/root.json[0m
+2022.06.19 16:34:22 INFO  [success] Generated .bloop/root-test.json[0m
+2022.06.19 16:34:22 INFO  [success] Total time: 3 s, completed Jun 19, 2022 4:34:23 PM[0m
+2022.06.19 16:34:24 INFO  time: ran 'sbt bloopInstall' in 1m27s[0m
+2022.06.19 16:34:24 INFO  Disconnecting from Bloop session...[0m
+2022.06.19 16:34:24 INFO  Shut down connection with build server.[0m
+2022.06.19 16:34:24 INFO  Shut down connection with build server.[0m
+2022.06.19 16:34:24 INFO  Attempting to connect to the build server...[0m
+2022.06.19 16:34:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/max/scalalab1list/scalalist/.metals/bsp.trace.json or /home/max/.cache/metals/bsp.trace.json[0m
+2022.06.19 16:34:24 INFO  Attempting to connect to the build server...[0m
+2022.06.19 16:34:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/max/scalalab1list/scalalist/project/.metals/bsp.trace.json or /home/max/.cache/metals/bsp.trace.json[0m
+2022.06.19 16:34:24 INFO  time: Connected to build server in 0.84s[0m
+2022.06.19 16:34:25 INFO  Connected to Build server: Bloop v1.5.0-22-91111c15[0m
+2022.06.19 16:34:26 INFO  time: Imported build in 0.54s[0m
+2022.06.19 16:34:33 INFO  time: indexed workspace in 7.16s[0m
+2022.06.19 16:34:37 INFO  compiling root-test (1 scala source)[0m
+2022.06.19 16:34:47 INFO  time: compiled root-test in 10s[0m
+2022.06.19 16:36:41 INFO  shutting down Metals[0m
+2022.06.19 16:36:41 INFO  Shut down connection with build server.[0m
+2022.06.19 16:36:41 INFO  Shut down connection with build server.[0m
+2022.06.19 16:42:44 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/max/scalalab1list/scalalist/.metals/lsp.trace.json or /home/max/.cache/metals/lsp.trace.json[0m
+2022.06.19 16:42:48 INFO  logging to file /home/max/scalalab1list/scalalist/.metals/metals.log[0m
+2022.06.19 16:42:48 INFO  Started: Metals version 0.11.6+103-1d8f5fdf-SNAPSHOT in workspace '/home/max/scalalab1list/scalalist' for client Visual Studio Code 1.68.1.[0m
+2022.06.19 16:42:57 INFO  time: initialize in 9.26s[0m
+2022.06.19 16:43:02 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.19 16:43:04 INFO  Attempting to connect to the build server...[0m
+2022.06.19 16:43:07 INFO  skipping build import with status 'Installed'[0m
