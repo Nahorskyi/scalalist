@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/max/scalalab1list/scalalist/src/main/scala/Main.scala:78:16 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m78 |[0m      [33mcase[0m n => [31m0[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                Found:    ([31m0[0m : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                Required: List[A][0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

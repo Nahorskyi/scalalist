@@ -41,25 +41,25 @@ class MySuite extends munit.FunSuite {
 
   test("take test 1"){
     val expected = List(1,2,3,4,5,6,7)
-    val actual = (List(1,2,3,4,5,6,7).take(100))
+    val actual = (take(List(1,2,3,4,5,6,7),100))
     assertEquals(expected , actual)
   }
 
   test("take test 2"){
     val expected = List(1,2,3)
-    val actual = (List(1,2,3,4,5,6,7).take(3))
+    val actual = (take(List(1,2,3,4,5,6,7),3))
     assertEquals(expected , actual)
   }  
 
   test("take test 3"){
     val expected = List("a","b",2,3)
-    val actual = (List("a","b",2,3,"f","g",7).take(4))
+    val actual = (take(List("a","b",2,3,"f","g",7),4))
     assertEquals(expected , actual)
   }
 
   test("take test 4"){
     val expected = List(1)
-    val actual = (List(1,2,3,4,5,6,7).take(1))
+    val actual = (take(List(1,2,3,4,5,6,7),1))
     assertEquals(expected , actual)
    }    
 

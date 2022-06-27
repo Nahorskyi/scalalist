@@ -22,25 +22,21 @@ enum List[+A]:
       case Cons(xh, xt) => f(xh, xt.foldRight(x)(f))
     }
   }
+
+  def length(xs: List[Int]): Int = xs match {
+    case Nil => 0 
+    case Cons(xh,xt) => 1 + length(xt)
+  }
+
+
+
   def isEmpty: Boolean =
     this match {
       case Nil        => true
       case Cons(_, _) => false
   }
 
-  def take(n: Int): List[A] ={
-    def f[A](xs: List[A], n: Int, acc: List[A] = Nil): List[A] = {
-      xs match {
-        case Nil => acc
-        case Cons(xh, xt) => {
-          if (n <= 0) acc 
-          else 
-            Cons(xh, f(xt,n-1,acc))
-        }
-      }
-    }
-    f(this, n)
-  }
+
 
   override def toString: String = {
     def go(sb: StringBuilder, xs: List[A]): String =
@@ -67,6 +63,17 @@ object List:
     }
   }
 
+  def take[A]( xs: List[A], n: Int, acc: List[A] = Nil): List[A] = {
+    xs match {
+      case Nil => acc
+      case Cons(xh, xt) => {
+        if (n <= 0) acc 
+        else 
+          Cons(xh, take(xt,n-1,acc))
+      }
+    }
+  }  
+
   def forall[A](xs: List[A], p: A => Boolean): Boolean = {
     if (xs.isEmpty) true
     else xs match {
@@ -79,6 +86,10 @@ object List:
     }
   }
 
-@main def main(): Unit = {
 
+@main def main(): Unit = {
+  println(forall(List(1,3,5,7), x => x % 2 == 1))
+  var l1 = List(1,2,3,4,5,7)
+  println(take(l1,3))
+  println(drop(l1,3))
 }

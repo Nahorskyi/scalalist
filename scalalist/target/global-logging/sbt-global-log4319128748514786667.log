@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"6","parents":[]},"eventTime":1656333106816,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/home/max/scalalab1list/scalalist/#root/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/max/scalalab1list/scalalist/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to /home/max/scalalab1list/scalalist/target/scala-3.1.2/classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/max/scalalab1list/scalalist/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/home/max/scalalab1list/scalalist/#root/Compile"},"diagnostics":[{"range":{"start":{"line":77,"character":16},"end":{"line":77,"character":17}},"severity":1,"source":"sbt","message":"Found:    (\u001b[31m0\u001b[0m : Int)\nRequired: List[A]"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/max/scalalab1list/scalalist/src/main/scala/Main.scala:78:16 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m78 |[0m      [33mcase[0m n => [31m0[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                Found:    ([31m0[0m : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                Required: List[A][0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"\u001b[31m-- [E007] Type Mismatch Error: /home/max/scalalab1list/scalalist/src/main/scala/Main.scala:78:16 \u001b[0m\n\u001b[31m78 |\u001b[0m      \u001b[33mcase\u001b[0m n => \u001b[31m0\u001b[0m\n   |                \u001b[31m^\u001b[0m\n   |                Found:    (\u001b[31m0\u001b[0m : Int)\n   |                Required: List[A]"})[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"one error found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/max/scalalab1list/scalalist/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/home/max/scalalab1list/scalalist/#root/Compile"},"diagnostics":[{"range":{"start":{"line":77,"character":16},"end":{"line":77,"character":17}},"severity":1,"source":"sbt","message":"Found:    (\u001b[31m0\u001b[0m : Int)\nRequired: List[A]"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"6","parents":[]},"eventTime":1656333130586,"message":"Compiled root","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/max/scalalab1list/scalalist/#root/Compile"},"errors":1,"warnings":0,"time":23770}})[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId None: {"code":-32603,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"}[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 26 s, completed Jun 27, 2022 3:32:11 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

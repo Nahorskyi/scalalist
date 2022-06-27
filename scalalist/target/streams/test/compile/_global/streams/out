@@ -1,0 +1,28 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/max/scalalab1list/scalalist/src/test/scala/MySuite.scala:50:38 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m50 |[0m    [33mval[0m [36mactual[0m = (List([31m1[0m,[31m2[0m,[31m3[0m,[31m4[0m,[31m5[0m,[31m6[0m,[31m7[0m).take([31m3[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                  [31m^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |value take is not a member of List[Int], but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |The following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import munit.Clue.generate[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/max/scalalab1list/scalalist/src/test/scala/MySuite.scala:56:46 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m56 |[0m    [33mval[0m [36mactual[0m = (List([31m"a"[0m,[31m"b"[0m,[31m2[0m,[31m3[0m,[31m"f"[0m,[31m"g"[0m,[31m7[0m).take([31m4[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                  [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |value take is not a member of List[Matchable], but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |The following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import munit.Clue.generate[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/max/scalalab1list/scalalist/src/test/scala/MySuite.scala:62:38 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m62 |[0m    [33mval[0m [36mactual[0m = (List([31m1[0m,[31m2[0m,[31m3[0m,[31m4[0m,[31m5[0m,[31m6[0m,[31m7[0m).take([31m1[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                  [31m^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |value take is not a member of List[Int], but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |The following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import munit.Clue.generate[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
